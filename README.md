@@ -7,6 +7,35 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Laravel Authentication System with CRUD Functionality for Companies and Employees
+
+
+This is a basic Laravel authentication system that allows administrators to log in, with CRUD functionality for two menu items: Companies and Employees. Companies have fields for Name, Email, Logo (minimum 100x100), and Website, while Employees have fields for First Name, Last Name, Company, Email, and Phone.
+
+## This project uses Laravel's built-in validation, pagination, and resource controllers, as well as database migrations and seeds to set up the necessary schemas and create the first admin user. It also implements multi-language support using Laravel's language files and middleware.
+
+## Getting Started
+To get started with this project, follow these steps:
+
+Clone the repository to your local machine.
+
+Create a new database for the project.
+
+Copy the .env.example file to .env and update the database settings.
+
+Run php artisan migrate to run the database migrations.
+
+Run php artisan db:seed to create the first admin user.
+
+Run php artisan serve to start the server and access the application in your browser.
+
+Run npm run dev 
+
+## Usage
+Once the application is set up, you can log in as an administrator with the email admin@admin.com and the password password. From there, you can access the Companies and Employees sections to perform CRUD operations on those resources.
+
+The application also supports multi-language support, with English and French translations available. To switch languages, click on the appropriate language link in the navigation bar.
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
