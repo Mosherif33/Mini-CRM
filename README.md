@@ -12,7 +12,7 @@
 
 This is a basic Laravel authentication system that allows administrators to log in, with CRUD functionality for two menu items: Companies and Employees. Companies have fields for Name, Email, Logo (minimum 100x100), and Website, while Employees have fields for First Name, Last Name, Company, Email, and Phone.
 
-## This project uses Laravel's built-in validation, pagination, and resource controllers, as well as database migrations and seeds to set up the necessary schemas and create the first admin user. It also implements multi-language support using Laravel's language files and middleware.
+This project uses Laravel's built-in validation, pagination, and resource controllers, as well as database migrations and seeds to set up the necessary schemas and create the first admin user. It also implements multi-language support using Laravel's language files and middleware.
 
 ## Getting Started
 To get started with this project, follow these steps:
@@ -36,19 +36,11 @@ Once the application is set up, you can log in as an administrator with the emai
 
 The application also supports multi-language support, with English and French translations available. To switch languages, click on the appropriate language link in the navigation bar.
 
-## About Laravel
+## Author
+This project was created by Mohamed Sherf. You can contact me at m.sherif2311@gmail.com if you have any questions or feedback.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Conclusion
+Thanks for checking out this Laravel authentication system with CRUD functionality for Companies and Employees. We hope it provides a helpful starting point for your web application development. If you have any questions or feedback, feel free to reach out.
 
 ## Learning Laravel
 
