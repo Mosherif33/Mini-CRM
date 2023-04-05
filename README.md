@@ -34,10 +34,10 @@ Run npm run dev
 ## Usage
 Once the application is set up, you can log in as an administrator with the email admin@admin.com and the password password. From there, you can access the Companies and Employees sections to perform CRUD operations on those resources.
 
-The application also supports multi-language support, with English and French translations available. To switch languages, click on the appropriate language link in the navigation bar.
+The application also supports multi-language support, with English and Arabic translations available. To switch languages, click on the appropriate language link in the navigation bar.
 
 ## Author
-This project was created by Mohamed Sherf. You can contact me at m.sherif2311@gmail.com if you have any questions or feedback.
+This project was created by Mohamed Sherif. You can contact me at m.sherif2311@gmail.com if you have any questions or feedback.
 
 ## Conclusion
 Thanks for checking out this Laravel authentication system with CRUD functionality for Companies and Employees. We hope it provides a helpful starting point for your web application development. If you have any questions or feedback, feel free to reach out.
